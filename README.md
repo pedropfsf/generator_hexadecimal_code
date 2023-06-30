@@ -15,7 +15,17 @@
 <br/>
 <div align="center">
   <img
-       src="https://github.com/pedropfsf/generator_hexadecimal_code/blob/master/assets/screenshot.png"
+       src="https://github.com/pedropfsf/generator_hexadecimal_code/blob/master/assets/screenshot1.png"
+       alt="Screenshot"
+       width="400px"
+   />
+   <img
+       src="https://github.com/pedropfsf/generator_hexadecimal_code/blob/master/assets/screenshot2.png"
+       alt="Screenshot"
+       width="400px"
+   />
+   <img
+       src="https://github.com/pedropfsf/generator_hexadecimal_code/blob/master/assets/screenshot3.png"
        alt="Screenshot"
        width="400px"
    />
