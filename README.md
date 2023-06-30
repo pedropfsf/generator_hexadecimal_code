@@ -17,17 +17,17 @@
   <img
        src="https://github.com/pedropfsf/generator_hexadecimal_code/blob/master/assets/screenshot1.png"
        alt="Screenshot"
-       width="300px"
+       width="200px"
    />
    <img
        src="https://github.com/pedropfsf/generator_hexadecimal_code/blob/master/assets/screenshot2.png"
        alt="Screenshot"
-       width="300px"
+       width="200px"
    />
    <img
        src="https://github.com/pedropfsf/generator_hexadecimal_code/blob/master/assets/screenshot3.png"
        alt="Screenshot"
-       width="300px"
+       width="200px"
    />
 </div>
 
