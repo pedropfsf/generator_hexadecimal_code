@@ -15,8 +15,8 @@ class Button extends StatelessWidget {
     return ElevatedButton(
       onPressed: onPressed,
       style: const ButtonStyle(
-        padding: MaterialStatePropertyAll(EdgeInsets.symmetric(vertical: 16)),
-        
+        padding: MaterialStatePropertyAll(EdgeInsets.all(16)),
+        backgroundColor: MaterialStatePropertyAll(Colors.deepPurple),
       ),
       child: Text(title, style: const TextStyle(fontSize: 24)),
     );
