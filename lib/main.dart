@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
 import 'dart:math';
+
 import 'widgets/button.dart';
 import 'widgets/center_text.dart';
+import 'widgets/container_screen.dart';
 
 main() => runApp(const App());
 
@@ -56,57 +57,48 @@ class AppState extends State<App> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: Container(
-          color: mainColor,
-          child: Column(
+    return ContainerScreen(
+      color: mainColor, 
+      child: Column(
+        children: [
+          Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  CenterText(text: getOldHex()),
-                  const SizedBox(width: 16),
-                  InkWell(
-                    onTap: copy,
-                    child: Icon(
-                      Icons.assignment,
-                      size: 48,
-                      color: iconColor,
-                    )
-                  )
-                ]
-              ),
-              const SizedBox(height: 24),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 32),
-                child: Button(
-                  title: 'Gerar uma cor',
-                  onPressed: generateColor,
+              CenterText(text: getOldHex()),
+              const SizedBox(width: 16),
+              InkWell(
+                onTap: copy,
+                child: Icon(
+                  Icons.assignment,
+                  size: 48,
+                  color: iconColor,
                 )
-              ),
-              Visibility(
-                visible: message.isNotEmpty,
-                child: Column(
-                  children: [
-                    const SizedBox(height: 16),
-                    Text(
-                      message,
-                      textAlign: TextAlign.center,
-                      style: const TextStyle(
-                        fontSize: 24,
-                        fontWeight: FontWeight.bold,
-                      )
-                    )
-                  ]
-                )
-              ),
-            ],
+              )
+            ]
           ),
-        )
-      )
+          const SizedBox(height: 24),
+          Button(
+            title: 'Gerar cor',
+            onPressed: generateColor,
+          ),
+          Visibility(
+            visible: message.isNotEmpty,
+            child: Column(
+              children: [
+                const SizedBox(height: 16),
+                Text(
+                  message,
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  )
+                )
+              ]
+            )
+          )
+        ]
+      ),
     );
   }
 }
