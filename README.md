@@ -1,16 +1,30 @@
-# generator_hexadecimal_code
+<h1 align="center">Gerador de cores hexadecimal</h1>
 
-A new Flutter project.
+<div align="center">
+  <img 
+       src="https://github.com/pedropfsf/generator_hexadecimal_code/blob/master/assets/logo.png" 
+       alt="Icon app"
+       width="120px"
+       height="120px"
+  />
+</div>
+<br/>
+<p align="center">Aplicativo para gerar cores aleatórias e visualizar o seu código hexadecimal</p>
 
-## Getting Started
+<br/>
+<br/>
+<div align="center">
+  <img
+       src="https://github.com/pedropfsf/generator_hexadecimal_code/blob/master/assets/screenshot.png"
+       alt="Screenshot"
+       width="400px"
+   />
+</div>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<br/>
+<br/>
+  
+## Tecnologia
+<a href="https://flutter.dev/" target="_black">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="50px" alt="Flutter" title="Flutter" />          
+</a>
