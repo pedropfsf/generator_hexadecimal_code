@@ -36,5 +36,7 @@
   
 ## Tecnologia
 <a href="https://flutter.dev/" target="_black">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="50px" alt="Flutter" title="Flutter" />          
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" width="50px" alt="Flutter" title="Flutter" /> 
+<a href="https://dart.dev/" target="_black">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="50px" alt="Flutter" title="Flutter" />  
 </a>
